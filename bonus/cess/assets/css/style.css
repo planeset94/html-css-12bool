@@ -1,0 +1,41 @@
+.container{
+    margin: 0 10rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+   
+}
+
+[class*="col-"]{
+    height: 79.98px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row.one, .row.twelve{
+background-color: #d18b47;
+}
+
+[class*="col-1"]:first-of-type, [class*="col-1"]:last-of-type{
+    background-color: #d18b47; 
+}
+
+
+/* Colori scacchiera  */
+
+.three .odd, .five .odd, .seven .odd, .nine .odd{
+    background-color: #fdce9e;
+}
+
+.three .even, .five .even, .seven .even, .nine .even{
+    background-color: #d18b47; 
+}
+
+.two .odd, .four .odd, .six .odd, .eight .odd, .ten .odd{
+    background-color: #d18b47; 
+}
+
+.two .even, .four .even, .six .even, .eight .even, .ten .even{
+    background-color: #fdce9e;
+}
