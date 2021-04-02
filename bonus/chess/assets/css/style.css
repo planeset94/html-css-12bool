@@ -39,3 +39,15 @@ background-color: #d18b47;
 .two .even, .four .even, .six .even, .eight .even, .ten .even{
     background-color: #fdce9e;
 }
+
+.row i{
+    z-index: 1;
+    font-size: 3.7rem;
+}
+
+.row i.bl{
+    color: black;
+}
+.row i.wh{
+    color: rgba(255, 255, 255, 0.829);
+}
