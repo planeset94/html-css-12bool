@@ -1,9 +1,21 @@
 .row{
     width: 70%;
     margin:auto;
+ 
+  
 }
 [class*="col-"]{
-    height: 68.22px;
+height: 68.5px;
+
+
+}
+
+@media screen and (max-width:750px){
+
+    [class*="col-"]{
+        height:45px;
+        
+        }
 }
 
 .red{

@@ -32,7 +32,7 @@
 /* colonne 12° */
 
 .col-1{
-    width: calc((100%/12) *1);
+width: calc((100%/12) *1);
 }
 .col-2{
     width: calc((100%/12) *2);
