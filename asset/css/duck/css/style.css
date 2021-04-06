@@ -1,5 +1,8 @@
 .container{
-    margin:0 15rem;
+    margin:5rem 15rem;
+}
+[class*="col-"]{
+       height: 20px;
 }
 
 /* GIALLI */
@@ -22,3 +25,29 @@
 .black{
     background-color: black;
 }
+
+.green{
+    background-color: green;
+}
+
+.st{
+    background-color: rgb(49, 48, 48);
+    
+}
+
+
+
+/* GESTIONE BORDI */
+/* .br-top{
+    border-top:2px solid black;
+}
+
+.br-bottom{
+    border-bottom:2px solid black;
+}
+.br-left{
+    border-left: 2px solid black;
+}
+.br-right{
+    border-right: 2px solid black;
+} */
