@@ -1,0 +1,24 @@
+.container{
+    margin:0 15rem;
+}
+
+/* GIALLI */
+.y1{
+    background-color: #FEF200;
+}
+
+/* ARANCIONE */
+.or1{
+    background-color: #F74F24;
+}
+
+.or2{
+    background-color: #FE8E15;
+}
+
+
+
+/* NERO */
+.black{
+    background-color: black;
+}
