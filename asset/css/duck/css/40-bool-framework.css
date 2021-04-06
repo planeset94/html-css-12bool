@@ -1,8 +1,8 @@
 /* DEBUG */
 
 .dbg [class*="col-"]{
-   
-    /* background-color: aquamarine; */
+    border: 2px solid ;
+    background-color: aquamarine;
     height: 20px;
 }
 *{
@@ -33,7 +33,7 @@
 
 /* colonne 40° */
 /* Dispositivi LG  */
-@media all and (min-width:992px){
+/* @media all and (min-width:992px){ */
     .col-lg-1{
     width: calc((100%/40) *1);
     }
@@ -277,11 +277,11 @@
         .col-lg-offset-40{
             width: calc((100%/40) *40);
         }
-}
+/* } */
 
 /* MD screen  */
 
-@media all and (min-width:768px) and (max-width:991px){
+/* @media all and (min-width:768px) and (max-width:991px){ */
     .col-md-1{
     width: calc((100%/40) *1);
     }
@@ -525,10 +525,10 @@
         .col-md-offset-40{
             width: calc((100%/40) *40);
         }
-}
+/* } */
 
 /* XS DEVICES  */
-@media all and (max-width:767px){
+/* @media all and (max-width:767px){ */
     .col-xs-1{
     width: calc((100%/40) *1);
     }
@@ -772,7 +772,7 @@
         .col-xs-offset-40{
             width: calc((100%/40) *40);
         }
-}
+/* } */
 
 
 
